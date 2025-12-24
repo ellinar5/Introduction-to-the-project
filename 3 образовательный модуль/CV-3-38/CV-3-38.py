@@ -141,7 +141,7 @@ def extract_total_price_smart(image_path):
 # =========================
 # ПРИМЕР ИСПОЛЬЗОВАНИЯ
 # =========================
-test_image = r"E:/УЧЕБА/УЧЕБА НГУ/2 КУРС/1 СЕМЕСТР/1.ОСНОВНАЯ/Введение в проект/3 блок/1407412961_1371258957.jpg"
+test_image = r"E:/УЧЕБА/УЧЕБА НГУ/2 КУРС/1 СЕМЕСТР/1.ОСНОВНАЯ/Введение в проект/3 блок/for_ processing_4.jpg"
 
 predict_image(test_image)
 
@@ -150,4 +150,5 @@ price = extract_total_price_smart(test_image)
 if price:
     print(f"💰 ИТОГОВАЯ СУММА: {price}")
 else:
+
     print("⚠️ ИТОГОВАЯ СУММА НЕ НАЙДЕНА")
